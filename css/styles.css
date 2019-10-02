@@ -1,6 +1,28 @@
-#menu-principal .row .botones-izquierda .envoltura-botones ul {
-  list-style: none;
+#menu-principal .titulo h1 {
+  text-align: center;
+  font-family: fantasy;
+  padding: 10px;
 }
+#menu-principal .row .botones-izquierda,
+#menu-principal .row .botones-derecha {
+  padding-top: 85px;
+}
+#menu-principal .row .botones-izquierda .envoltura-botones ul,
 #menu-principal .row .botones-derecha .envoltura-botones ul {
   list-style: none;
+  text-align: center;
+  padding: 0;
+}
+#menu-principal .row .botones-izquierda .envoltura-botones ul li,
+#menu-principal .row .botones-derecha .envoltura-botones ul li {
+  padding: 20px 15px;
+  color: white;
+  background-color: blue;
+}
+#menu-principal .row .botones-izquierda .envoltura-botones ul li + li,
+#menu-principal .row .botones-derecha .envoltura-botones ul li + li {
+  margin-top: 30px;
+}
+#menu-principal .imagen-principal .envoltura-imagen img {
+  width: 100%;
 }
