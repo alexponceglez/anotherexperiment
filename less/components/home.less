@@ -4,3 +4,55 @@
   box-sizing: border-box;
 }
 
+.left-column-components{
+  height: 100vh;
+  background-color: red;
+}
+
+.right-column-phone{
+  height: 100vh;
+  background-color: blue;
+
+  .phone{
+    max-width: 250px;
+    width: 100%;
+    height: 500px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+
+    .notch{
+      width: 100%;
+      height: 80px;
+      background-color: white;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 50px;
+
+      .controls{
+        position: relative;
+        max-width: 200px;
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+
+        .container-controls{
+          position: absolute;
+          height: 10px;
+          width: 100%;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: black;
+
+          .circle{
+
+          }
+        }
+      }
+    }
+  }
+}
