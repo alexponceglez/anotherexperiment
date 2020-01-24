@@ -16,6 +16,18 @@ h3 {
   width: 100%;
   height: 100vh;
 }
+.left-column-components .image-content img.puerta {
+  display: none;
+}
+.left-column-components .image-content img.tele {
+  display: none;
+}
+.left-column-components .image-content img.luz {
+  display: none;
+}
+.left-column-components .image-content img.ventana {
+  display: none;
+}
 .right-column-phone {
   height: 100vh;
   background: linear-gradient(269deg, #27d9ab, #d95027);
@@ -81,6 +93,13 @@ h3 {
   display: none;
 }
 .right-column-phone .phone .notch .display .wrapper-display-cochera li:last-child {
+  margin-top: 200px;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cochera-puerta {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cochera-puerta li:last-child {
   margin-top: 200px;
 }
 .right-column-phone .phone .notch .display li {
