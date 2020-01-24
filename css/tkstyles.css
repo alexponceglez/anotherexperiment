@@ -16,16 +16,28 @@ h3 {
   width: 100%;
   height: 100vh;
 }
-.left-column-components .image-content img.puerta {
+.left-column-components .image-content img.puerta-abierta {
   display: none;
 }
-.left-column-components .image-content img.tele {
+.left-column-components .image-content img.puerta-cerrada {
   display: none;
 }
-.left-column-components .image-content img.luz {
+.left-column-components .image-content img.tele-encendida {
   display: none;
 }
-.left-column-components .image-content img.ventana {
+.left-column-components .image-content img.tele-apagada {
+  display: none;
+}
+.left-column-components .image-content img.ventana-abierta {
+  display: none;
+}
+.left-column-components .image-content img.ventana-cerrada {
+  display: none;
+}
+.left-column-components .image-content img.foco-encendido {
+  display: none;
+}
+.left-column-components .image-content img.foco-apagado {
   display: none;
 }
 .right-column-phone {
@@ -74,6 +86,20 @@ h3 {
 .right-column-phone .phone .notch .display .wrapper-display-sala li:last-child {
   margin-top: 200px;
 }
+.right-column-phone .phone .notch .display .wrapper-display-sala-luz {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-sala-luz li:last-child {
+  margin-top: 200px;
+}
+.right-column-phone .phone .notch .display .wrapper-display-sala-tele {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-sala-tele li:last-child {
+  margin-top: 200px;
+}
 .right-column-phone .phone .notch .display .wrapper-display-habitacion {
   padding-top: 20px;
   display: none;
@@ -81,11 +107,46 @@ h3 {
 .right-column-phone .phone .notch .display .wrapper-display-habitacion li:last-child {
   margin-top: 200px;
 }
+.right-column-phone .phone .notch .display .wrapper-display-habitacion-luz {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-habitacion-luz li:last-child {
+  margin-top: 200px;
+}
+.right-column-phone .phone .notch .display .wrapper-display-habitacion-tele {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-habitacion-tele li:last-child {
+  margin-top: 200px;
+}
+.right-column-phone .phone .notch .display .wrapper-display-habitacion-ventana {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-habitacion-ventana li:last-child {
+  margin-top: 200px;
+}
 .right-column-phone .phone .notch .display .wrapper-display-cocina {
   padding-top: 20px;
   display: none;
 }
 .right-column-phone .phone .notch .display .wrapper-display-cocina li:last-child {
+  margin-top: 200px;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cocina-luz {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cocina-luz li:last-child {
+  margin-top: 200px;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cocina-ventana {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cocina-ventana li:last-child {
   margin-top: 200px;
 }
 .right-column-phone .phone .notch .display .wrapper-display-cochera {
@@ -100,6 +161,13 @@ h3 {
   display: none;
 }
 .right-column-phone .phone .notch .display .wrapper-display-cochera-puerta li:last-child {
+  margin-top: 200px;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cochera-luz {
+  padding-top: 20px;
+  display: none;
+}
+.right-column-phone .phone .notch .display .wrapper-display-cochera-luz li:last-child {
   margin-top: 200px;
 }
 .right-column-phone .phone .notch .display li {
