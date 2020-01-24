@@ -9,40 +9,80 @@
 }
 .right-column-phone {
   height: 100vh;
-  background-color: blue;
+  background: linear-gradient(269deg, #27d9ab, #d95027);
 }
 .right-column-phone .phone {
-  max-width: 250px;
+  max-width: 325px;
   width: 100%;
-  height: 500px;
+  height: 621px;
   display: table;
   margin: 0 auto;
   margin-top: 50px;
-  border-radius: 50px;
+  border-radius: 65px;
   border: 1px solid black;
-  background-color: white;
+  background-color: black;
+  position: relative;
+  box-shadow: 13px 14px 10px;
 }
 .right-column-phone .phone .notch {
-  width: 100%;
-  height: 80px;
   background-color: white;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border: 1px solid black;
+  width: 300px;
+  height: 590px;
+  margin: 0 auto;
+  border-radius: 50px;
+  margin-top: 15px;
+  background-image: url("../../images/iphone-x.jpg");
+  background-size: 100%;
+  position: relative;
 }
 .right-column-phone .phone .notch .controls {
-  position: relative;
-  max-width: 200px;
-  width: 100%;
-  margin: 0 auto;
-  height: 100%;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-.right-column-phone .phone .notch .controls .container-controls {
-  position: absolute;
-  height: 10px;
-  width: 100%;
-  top: 50%;
-  transform: translateY(-50%);
   background-color: black;
+  width: 192px;
+  height: 25px;
+  border-radius: 0px 0px 50px 50px;
+  margin: 0px auto 0 56px;
+}
+.right-column-phone .phone .notch .display {
+  text-align: center;
+}
+.right-column-phone .phone .notch .display li {
+  list-style: none;
+}
+.right-column-phone .phone .notch .display li a {
+  text-decoration: none;
+  background-color: pink;
+  padding: 10px 15px;
+  width: 100%;
+  display: block;
+  max-width: 190px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bolder;
+  background: linear-gradient(269deg, black, blue);
+}
+.right-column-phone .phone .notch .display li a:hover {
+  background: linear-gradient(269deg, blue, black);
+}
+.right-column-phone .phone .notch .display .wrapper-display {
+  padding-top: 20px;
+}
+.right-column-phone .phone .notch .display .wrapper-display h3 {
+  font-family: fantasy;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.right-column-phone .phone .notch .line {
+  background-color: #ffffffa8;
+  width: 75px;
+  height: 4px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  cursor: pointer;
 }
